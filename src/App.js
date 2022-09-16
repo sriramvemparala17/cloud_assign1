@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p>
           Deploying an application into AWS Cloud and monitoring performance and resource usage of application using Amazon’s CloudWatch.
         </p>
-        
+        <img src={logo} alt="Logo" />;
       </header>
     </div>
   );
